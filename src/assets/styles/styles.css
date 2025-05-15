@@ -4,3 +4,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-muted);
+}
+
+::-webkit-scrollbar-thumb {
+    transition: 0.25s;
+    background: var(--color-muted-foreground);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-ring);
+}

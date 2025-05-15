@@ -2,15 +2,13 @@
   "$schema": "https://radix.shadcn-vue.com/schema.json",
   "style": "default",
   "typescript": false,
-  "tsConfigPath": "./jsconfig.json",
   "tailwind": {
     "config": "tailwind.config.js",
-    "css": "src/assets/style.css",
+    "css": "src/assets/styles/styles.css",
     "baseColor": "neutral",
-    "cssVariables": false,
+    "cssVariables": true,
     "prefix": ""
   },
-  "framework": "vite",
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils"

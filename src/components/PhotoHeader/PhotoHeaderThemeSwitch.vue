@@ -5,9 +5,9 @@
     @update:checked="toggleTheme"
   >
     <template #thumb>
-      <div class="h-full flex items-center justify-center">
-        <Icon v-if="isDark" name="Moon" class="size-3 text-white" />
-        <Icon v-else name="Sun" class="size-3 text-white" />
+      <div class="h-full flex items-center justify-center rounded-full bg-primary-foreground">
+        <Icon v-if="isDark" name="Moon" class="size-3 text-foreground" />
+        <Icon v-else name="Sun" class="size-3 text-foreground" />
       </div>
     </template>
   </Switch>
